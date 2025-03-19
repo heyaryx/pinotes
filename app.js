@@ -182,7 +182,7 @@ class PiNotesApp {
     return {
       id: this.generateId(),
       title: 'Welcome to PiNotes!',
-      content: `# Welcome to PiNotes!\n\nHere are some tips to get started:\n\n## Features\n\n- **Markdown Support**: Format your notes using markdown syntax\n- **Preview Mode**: Click the eye icon to preview your formatted notes\n- **Favorite Notes**: Star important notes to find them easily\n- **Color Coding**: Organize with different colors\n- **Search**: Quickly find notes\n\n## Markdown Tips\n\n- Use # for headers\n- *italic* or _italic_\n- **bold** or __bold__\n- [Link](https://example.com)\n- - Bullet points\n- 1. Numbered lists\n\nStart by creating a new note with the + button!`,
+      content: `# Welcome to PiNotes!\n\nHere are some tips to get started:\n\n## Features\n\n- **Markdown Support**: Format your notes using markdown syntax\n- **Preview Mode**: Click the eye icon to preview your formatted notes\n- **Favorite Notes**: Star important notes to find them easily\n- **Color Coding**: Organize with different colors\n- **Search**: Quickly find notes\n\n## Markdown Tips\n\n- Use # for headers\n- *italic* or _italic_\n- **bold** or __bold__\n- [Link](https://example.com)\n- - Bullet points\n- 1. Numbered lists\n\nStart by creating a new note with the + button!\nFor More Stuffs checkout [Link](http://heyaryx.me)`,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       color: '#ffffff',
